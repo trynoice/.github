@@ -5,15 +5,16 @@
 </p>
 <h1 align="center">Noice: Natural Calming Noise</h1>
 
-For a lot of people, a little background noise is helpful to calm down and
-focus. In some cases, it's also a boost to productivity. Background noise can
-also help minimize the effects of stress.
+For a lot of people, a little uniform background noise is helpful to remain calm
+and focused. In some cases, it also boosts productivity and lowers the effects
+of stress and anxiety. Background noise also masks tinnitus, calms agitated
+infants and improves reading and meditation experiences.
 
-Noice is an app that allows you to create your own set of background sounds by
-mixing clips from environmental sources. Create your perfect surroundings by
-combining different sounds to drown out distractions so you can focus on your
-work, or generate serene peaceful environments that encourage you to fall
-asleep.
+Noice is an app that allows you to create personalised sound environments. It
+enables you to combine different sounds at different volume levels to create
+perfect ambient atmospheres. These custom sound surroundings let you drown out
+distractions and allow you to concentrate. You can also use it to generate a
+serene, peaceful aura that encourages you to relax and fall asleep.
 
 ## Download for Android
 
