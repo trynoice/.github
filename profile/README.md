@@ -28,10 +28,10 @@ serene, peaceful aura that encourages you to relax and fall asleep.
 ## Useful Links
 
 1. [Website](https://trynoice.com)
-2. [Twitter](https://twitter.com/trynoice)
-3. [LinkedIn](https://linkedin.com/company/trynoice)
-4. [Instagram](https://instagram.com/trynoice)
-5. Support email: [trynoiceapp@gmail.com](mailto:trynoiceapp@gmail.com)
+2. Support email: [trynoiceapp@gmail.com](mailto:trynoiceapp@gmail.com)
+3. [Twitter](https://twitter.com/trynoice)
+4. [LinkedIn](https://linkedin.com/company/trynoice)
+5. [Instagram](https://instagram.com/trynoice)
 6. [Terms of Service](https://trynoice.com/terms-of-service)
 7. [Privacy Policy](https://trynoice.com/privacy-policy)
 
@@ -46,7 +46,7 @@ serene, peaceful aura that encourages you to relax and fall asleep.
 [![Sponsoring Organisations][oc-orgs-badge]][oc]
 
 <a href="https://thenounproject.com/icon/white-noise-1287855/">
-  <small>White Noise icon by Juraj Sedlák</small>
+  <sub><sup>White Noise icon by Juraj Sedlák</sup></sub>
 </a>
 
 [oc]: https://opencollective.com/noice
