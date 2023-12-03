@@ -1,0 +1,45 @@
+name: Bump NPM Dependencies
+on:
+  workflow_call:
+    inputs:
+      node-version-file:
+        type: string
+        default: .node-version
+      install-command:
+        type: string
+        default: npm install
+      build-command:
+        type: string
+        default: npm run build
+    secrets:
+      noice-bot-github-token:
+        required: true
+
+jobs:
+  bump:
+    name: Bump NPM Dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ${{ inputs.node-version-file }}
+      - run: |
+          npx npm-check-updates \
+            --doctor \
+            --doctorInstall "${{ inputs.install-command }}" \
+            --doctorTest "${{ inputs.build-command }}" \
+            --peer \
+            --upgrade
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.noice-bot-github-token }}
+          commit-message: Bump npm dependencies
+          author: Noice Bot <107856616+noice-bot@users.noreply.github.com>
+          committer: Noice Bot <107856616+noice-bot@users.noreply.github.com>
+          delete-branch: true
+          branch: npm-deps-upgrade
+          branch-suffix: timestamp
+          title: Bump NPM Dependencies
+          body: ""
+          labels: dependencies
